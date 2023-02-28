@@ -1,0 +1,11 @@
+binaryNum : !!int 0b11001
+zero : !!int 0
+hexa : !!int 0x45
+commaValue: !!int +540_000
+message: !!str
+not a num: .nan
+surname: !!null Null
+~: this is a null key
+date: !!timestamp 2002-12-14
+india time: 2001-12-15T02.59:43.1Z
+india time2: 2001-12-15T02.59:43.10 +5:30
