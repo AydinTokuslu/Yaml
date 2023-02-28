@@ -1,0 +1,17 @@
+student : !!seq
+  - marks
+  - name
+  - roll_no
+
+cities: [new delhi, mumbai]
+
+# nested mappings:
+name: kunal kushwa
+role:
+  age: 78
+  job: student
+
+pair example: !!pairs
+  - job: student
+  - job: teacher
+
